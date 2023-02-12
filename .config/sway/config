@@ -30,7 +30,7 @@ exec --no-startup-id ~/Scripts/lid_close.sh
 bindsym $mod+BackSpace exec /home/lukecollins/Scripts/toggle_split.sh
 
 # Launch Gnome settings panels
-bindsym $mod+s exec gnome-control-center sound
+bindsym $mod+s exec pavucontrol
 bindsym $mod+w exec st -e nmtui
 
 # Launch external app settings
