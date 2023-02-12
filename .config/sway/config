@@ -31,7 +31,7 @@ bindsym $mod+BackSpace exec /home/lukecollins/Scripts/toggle_split.sh
 
 # Launch Gnome settings panels
 bindsym $mod+s exec gnome-control-center sound
-bindsym $mod+w exec gnome-control-center wifi
+bindsym $mod+w exec st -e nmtui
 
 # Launch external app settings
 bindsym $mod+d exec nwg-displays
