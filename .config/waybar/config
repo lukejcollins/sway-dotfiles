@@ -28,7 +28,8 @@
         "network",
         "battery",
         "clock#date",
-        "clock#time"
+        "clock#time",
+        "tray"
     ],
 
 
