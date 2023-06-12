@@ -4,21 +4,24 @@
 #
 # Read `man 5 sway` for a complete reference.
 
-# Start polkit
-exec lxqt-policykit-agent
-
 # Clear split files
 exec rm ~/.sway_split_direction_*
 
 ### Variables
 #
+
 # Logo key. Use Mod1 for Alt.
 set $mod Mod4
+
+# Change Gnome to dark theme
+exec --no-startup-id ~/scripts/set-dark-theme.sh
+
 # Home row direction keys, like vim
 set $left h
 set $down j
 set $up k
 set $right l
+
 # Your preferred terminal emulator
 set $term alacritty
 # Your preferred application launcher
@@ -37,14 +40,14 @@ bindsym $mod+BackSpace exec /home/lukecollins/Scripts/toggle_split.sh
 
 # Launch Gnome settings panels
 bindsym $mod+s exec pavucontrol
-bindsym $mod+w exec st -e nmtui
+bindsym $mod+w exec alacritty -e sh -c 'sleep 0.1; nmtui'
 
 # Launch external app settings
 bindsym $mod+d exec nwg-displays
 bindsym $mod+b exec blueman-manager
 
 # Touchpad two finger click
-input "1267:12572:DLL0945:00_04F3:311C_Touchpad" click_method clickfinger
+input "1739:52934:SYNA801A:00_06CB:CEC6_Touchpad" click_method clickfinger
 
 # Launch mako
 exec mako
@@ -76,7 +79,7 @@ gaps inner 5
 focus_follows_mouse no
 
 # Lock screen
-bindsym $mod+Escape exec swaylock --clock --screenshots --effect-pixelate 5
+bindsym $mod+Escape exec swaylock -c 000000 --indicator-idle-visible
 
 # Set default launcher
 exec /usr/bin/python3 /usr/bin/ulauncher --hide-window 1 > ~/logs/ulauncher.log 2>&1
