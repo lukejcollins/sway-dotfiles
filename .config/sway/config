@@ -82,7 +82,7 @@ focus_follows_mouse no
 bindsym $mod+Escape exec swaylock -c 000000 --indicator-idle-visible
 
 # Set default launcher
-set $menu fuzzel
+set $menu rofi -show drun
 
 # Hotkey for screenshot
 bindsym $mod+p exec grim -g "$(slurp)" - | swappy -f -
