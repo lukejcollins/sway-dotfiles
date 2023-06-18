@@ -14,7 +14,7 @@ exec rm ~/.sway_split_direction_*
 set $mod Mod4
 
 # Change Gnome to dark theme
-exec --no-startup-id ~/scripts/set-dark-theme.sh
+exec --no-startup-id ~/.local/bin/set-dark-theme.sh
 
 # Home row direction keys, like vim
 set $left h
