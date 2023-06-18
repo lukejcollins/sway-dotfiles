@@ -4,14 +4,14 @@ This repository contains my personal configuration files (dotfiles) for Sway and
 
 ## Contents
 
-- `sway/` - Configuration files for [Sway](https://swaywm.org/), the tiling Wayland compositor.
-- `waybar/` - Configuration for [Waybar](https://github.com/Alexays/Waybar), a highly customizable Wayland bar for Sway and Wlroots based compositors.
-- `swappy/` - Configuration for [Swappy](https://github.com/jtheoof/swappy), a Wayland native snapshot editing tool.
-- `zsh/` - Configuration files for Zsh shell, including .zshrc.
-- `powerlevel10k/` - Configuration files for [Powerlevel10k](https://github.com/romkatv/powerlevel10k), a Zsh theme.
-- `flatpak-overrides/` - Custom overrides for Flatpak applications.
-- `desktop-files/` - Custom `.desktop` files for application shortcuts.
-- `config-scripts/` - Various configuration scripts to set up and manage the environment.
+- `.config/sway/` - Configuration files for [Sway](https://swaywm.org/), the tiling Wayland compositor.
+- `.config/waybar/` - Configuration for [Waybar](https://github.com/Alexays/Waybar), a highly customizable Wayland bar for Sway and Wlroots based compositors.
+- `.config/swappy/` - Configuration for [Swappy](https://github.com/jtheoof/swappy), a Wayland native snapshot editing tool.
+- `.zshrc` - Configuration files for Zsh shell, including .zshrc.
+- `.p10k.zsh` - Configuration files for [Powerlevel10k](https://github.com/romkatv/powerlevel10k), a Zsh theme.
+- `.local/share/flatpak/overrides/` - Custom overrides for Flatpak applications.
+- `.local/share/applications/` - Custom `.desktop` files for application shortcuts.
+- `.local/bin` - Various configuration scripts to set up and manage the environment.
 
 ## Getting Started
 
