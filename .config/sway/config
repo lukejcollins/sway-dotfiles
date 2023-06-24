@@ -36,7 +36,7 @@ exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec --no-startup-id ~/Scripts/lid_close.sh
 
 # Toggle window
-bindsym $mod+BackSpace exec /home/lukecollins/Scripts/toggle_split.sh
+bindsym $mod+BackSpace exec /home/lukecollins/.local/bin/sway_split_direction.sh
 
 # Launch Gnome settings panels
 bindsym $mod+s exec pavucontrol
