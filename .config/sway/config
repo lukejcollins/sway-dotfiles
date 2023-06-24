@@ -33,7 +33,7 @@ set $menu dmenu_path | dmenu | xargs swaymsg exec --
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 
 # Lock on lid close
-exec --no-startup-id ~/Scripts/lid_close.sh
+exec_always ~/.local/bin/swaylock-on-sleep.sh
 
 # Toggle window
 bindsym $mod+BackSpace exec /home/lukecollins/.local/bin/sway_split_direction.sh
