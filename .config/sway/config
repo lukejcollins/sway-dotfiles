@@ -5,9 +5,6 @@
    # Change GTK to dark theme
    exec --no-startup-id ~/.local/bin/set-dark-theme.sh
 
-   # Lock on lid close
-   exec_always ~/.local/bin/swaylock-on-sleep.sh
-
    # Initialise wob
    exec rm -f $WOBSOCK && mkfifo $WOBSOCK && tail -f $WOBSOCK | wob
 
@@ -61,10 +58,13 @@
    bindsym XF86MonBrightnessDown exec light -U 10
 
    # Lock screen
-   bindsym $mod+Escape exec swaylock -c 000000 --indicator-idle-visible
+   bindsym $mod+Escape exec swaylock-effects --clock --screenshots --effect-pixelate 5
 
    # Hotkey for screenshot
    bindsym $mod+p exec grim -g "$(slurp)" - | swappy -f -
+
+   # Lock screen on lid close
+   bindswitch --locked lid:on exec swaylock-effects --clock --screenshots --effect-pixelate 5
 
 
 ### Custom theme settings ###
