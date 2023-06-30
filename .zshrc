@@ -112,7 +112,7 @@ export GTK_THEME=Adwaita:dark
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-alias config='/usr/bin/git --git-dir=/home/lukecollins/.cfg/ --work-tree=/home/lukecollins'
+alias config="/usr/bin/git --git-dir=/home/$USER/.cfg/ --work-tree=/home/$USER"
 
 #export PYENV_ROOT="$HOME/.pyenv"
 #command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
