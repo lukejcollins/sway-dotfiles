@@ -79,7 +79,7 @@
    gaps inner 5
 
    # Wallpaper
-   output * bg /home/lukecollins/Pictures/wallhaven-7286p3_3840x2160.png fill
+   output * bg /usr/share/sddm/themes/chili/assets/wallhaven-7286p3_3840x2160.png fill
 
 
 ### Custom misc settings ###
