@@ -1,3 +1,5 @@
+![Made for Linux](https://img.shields.io/badge/-Made%20for%20Linux-black?logo=linux) ![Dotfiles](https://img.shields.io/badge/-Dotfiles-blue?logo=files)
+
 # Sway Dotfiles Repository
 
 This repository contains my personal configuration files (dotfiles) for Sway and related tools on Linux, stored as a bare Git repository as recommended by Bitbucket.
@@ -7,6 +9,7 @@ This repository contains my personal configuration files (dotfiles) for Sway and
 - `.config/sway/` - Configuration files for [Sway](https://swaywm.org/), the tiling Wayland compositor.
 - `.config/waybar/` - Configuration for [Waybar](https://github.com/Alexays/Waybar), a highly customizable Wayland bar for Sway and Wlroots based compositors.
 - `.config/swappy/` - Configuration for [Swappy](https://github.com/jtheoof/swappy), a Wayland native snapshot editing tool.
+- `.config/rofi/` - Configuration for [Rofi](https://github.com/davatorium/rofi), a powerful window switcher, application launcher and dmenu replacement.
 - `.zshrc` - Configuration files for Zsh shell, including .zshrc.
 - `.p10k.zsh` - Configuration files for [Powerlevel10k](https://github.com/romkatv/powerlevel10k), a Zsh theme.
 - `.local/share/flatpak/overrides/` - Custom overrides for Flatpak applications.
