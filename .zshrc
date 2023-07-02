@@ -120,3 +120,6 @@ alias config="/usr/bin/git --git-dir=/home/$USER/.cfg/ --work-tree=/home/$USER"
 
 #eval "$(pyenv virtualenv-init -)"
 source ~/powerlevel10k/powerlevel10k.zsh-theme
+
+# Alias nvim to vim
+alias vim='nvim'
