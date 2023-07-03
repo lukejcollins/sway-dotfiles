@@ -22,7 +22,7 @@ To use these configurations, first, ensure that Git is installed on your system.
 
 ### Setting Up the Bare Repository
 
-Follow the guidance in this [Bitbucket article](https://www.atlassian.com/git/tutorials/dotfiles) in order to understand how to restore from this repostiory.
+Follow the guidance in this [Bitbucket article](https://www.atlassian.com/git/tutorials/dotfiles) in order to understand how to restore from this repository.
 
 ## Contributing
 
