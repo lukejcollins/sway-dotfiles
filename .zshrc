@@ -123,3 +123,7 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 
 # Alias nvim to vim
 alias vim='nvim'
+
+# Add local bin to PATH
+export PATH="$HOME/.local/bin:$PATH"
+
