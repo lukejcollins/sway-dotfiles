@@ -11,6 +11,8 @@
    # Launch blueman
    exec --no-startup-id blueman-applet
 
+   # Launch lxpolkit
+   exec --no-startup-id lxpolkit
 
 ### Custom variables ###
    # Logo key. Use Mod1 for Alt.
@@ -79,7 +81,7 @@
    gaps inner 5
 
    # Wallpaper
-   output * bg /usr/share/sddm/themes/chili/assets/wallhaven-7286p3_3840x2160.png fill
+   output * bg /usr/share/sddm/themes/chili/assets/wallpaper.jpg fill
 
 
 ### Custom misc settings ###
