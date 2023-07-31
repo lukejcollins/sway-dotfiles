@@ -6,6 +6,7 @@ call plug#end()
 let g:ale_linters = {
 \   'terraform': ['tflint'],
 \   'python': ['flake8', 'pylint'],
+\   'sh': ['shellcheck'],
 \}
 let g:ale_fixers = {}
 let g:ale_fixers['python'] = ['black']
