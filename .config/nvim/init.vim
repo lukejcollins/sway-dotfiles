@@ -10,6 +10,6 @@ let g:ale_linters = {
 \}
 let g:ale_fixers = {}
 let g:ale_fixers['python'] = ['black']
+let g:ale_fixers['sh'] = ['shfmt']
 let g:ale_python_black_options = '--line-length 79'
 nnoremap <F5> :ALEFix<CR>
-

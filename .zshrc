@@ -127,3 +127,8 @@ alias vim='nvim'
 # Add local bin to PATH
 export PATH="$HOME/.local/bin:$PATH"
 
+# Add go path to bin
+export PATH=$PATH:/usr/lib/golang/bin
+
+# Add local go bin path to PATH
+export PATH=$PATH:~/go/bin
