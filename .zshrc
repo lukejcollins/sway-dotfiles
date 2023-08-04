@@ -132,3 +132,6 @@ export PATH=$PATH:/usr/lib/golang/bin
 
 # Add local go bin path to PATH
 export PATH=$PATH:~/go/bin
+
+# Add home bin to path
+export PATH="$HOME/bin:$PATH"
